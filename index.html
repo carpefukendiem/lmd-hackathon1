@@ -1,0 +1,170 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MD Hackathon - Full Screen Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/fsf_style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="fs-title">
+      <h1>Full Screen Form</h1>
+      <h2>Team: grounded-monkeys</h2>
+      <i class="fa fa-arrow-left dark"></i>
+      <i class="fa fa-tint"></i>
+      <i class="fa fa-question-circle"></i>
+    </div>
+    <div id="form-wrap">
+
+      <form id="my-form" class="" autocomplete="off">
+        <ol>
+          <li class="current">
+            <label class="" for="q1">Let's start with your name.</label>
+            <input class="" id="q1" name="q1" type="text" placeholder="James Dean" required />
+          </li>
+          <li>
+            <label class="" for="q2" data-info="We won't send you spam, we promise...">What's your email address?
+            </label>
+            <input class="" id="q2" name="q2" type="email" placeholder="example@mysite.com" required/>
+          </li>
+          <li data-input-trigger>
+            <label class="cs-field-label" for="q3" data-info="This will help us know what kind of services you need">How can we help you grow your business?</label>
+
+            <div id="cs-radio-group">
+              <label for="q3a" class="radio-advertising">
+                <input id="q3a" name="q3" type="radio" value="advertising">
+                <div class="radio1">
+                  <img src="images/megaphone-1.png" />
+                  <p>Paid Advertising</p>
+                </div>
+              </label>
+              <label class="radio-seo" for="q3b">
+                <input id="q3b" name="q3" type="radio" value="seo">
+                <div class="radio2">
+                  <img src="images/analytics.png" alt=""/>
+                  <p>SEO</p>
+                </div>
+              </label>
+              <label class="radio-mobile" for="q3c">
+                <input id="q3c" name="q3" type="radio" value="mobile">
+                <div class="radio3">
+                  <img src="images/chat.png"/>
+                  <p>Mobile Marketing</p>
+                </div>
+              </label>
+            </div> 
+          </li>
+         <!--  <li data-input-trigger>
+            <label class="" data-info="We'll make sure to use it all over">Choose a color for your website.</label>
+            <div class="" tabindex="0">
+              <div class="cs-options hidden">
+                <ul>
+                  <li class="color-588c745" data-option data-value="#588c75">
+                    <span>#588c75</span>
+                  </li>
+                  <li class="color-b0c47f" data-option data-value="#b0c47f">
+                    <span>#b0c47f</span>
+                  </li>
+                  <li class="color-f3e395" data-option data-value="#f3e395">
+                    <span>#f3e395</span>
+                  </li>
+                  <li class="color-f3ae73" data-option data-value="#f3ae73">
+                    <span>#f3ae73</span>
+                  </li>
+                  <li class="color-da645a" data-option data-value="#da645a">
+                    <span>#da645a</span>
+                  </li>
+                  <li class="color-79a38f" data-option data-value="#79a38f">
+                    <span>#79a38f</span>
+                  </li>
+                </ul>
+              </div>
+              
+                <span class='cs-block'></span>
+                <select class="cs-select">
+                  <option value disabled selected>Pick a color</option>
+                  <option value="#588c75" data-class="color-588c75">#588c75</option>
+                  <option value="#b0c47f" data-class="color-b0c47f">#b0c47f</option>
+                  <option value="#f3e395" data-class="color-f3e395">#f3e395</option>
+                  <option value="#f3ae73" data-class="color-588c75">#588c75</option>
+                  <option value="#da645a" data-class="color-588c75">#588c75</option>
+                  <option value="#70a38f" data-class="color-588c75">#588c75</option>
+                 
+                </select>
+          </li>
+          <li data-input-trigger>
+            <label class="" data-info="We'll make sure to have a smooth flowing sales ">"Choose a color for your site.</label>
+            <div class="" tabindex="0">
+              <span class="">"Pick a color, any color"</span>
+              <div class="cs-options">
+                <ul>
+                  <li class="color-588c75" data-option data-value="#588c75">
+                    <span>#588c75</span>
+                  </li>
+                  <li class="color-b0c47f" data-option data-value="#b0c47f5">
+                    <span>#b0c47f</span>
+                  </li>
+                  <li class="color-f3e395" data-option data-value="#f3e395">
+                    <span>#f3e395</span>
+                  </li>
+                  <li class="color-f3ae73" data-option data-value="#f3ae73">
+                    <span>#f3ae73</span>
+                  </li>
+                  <li class="color-da645a" data-option data-value="#da645a">
+                    <span>#da645a</span>
+                  </li>
+                  <li class="color-79a38f" data-option data-value="#79a38f">
+                    <span>#79a38f</span>
+                  </li>
+                </ul>
+              </div>
+              <select class="cs-select">
+                <option value disabled selected>Pick a color</option>
+                <option value="#588c75" data-class="color-588c75">#588c75</option>
+                <option value="#b0c47f" data-class="color-b0c47f">#b0c47f</option>
+                <option value="#f3e395" data-class="color-f3e395">#f3e395</option>
+                <option value="#f3ae73" data-class="color-588c75">#588c75</option>
+                <option value="#da645a" data-class="color-588c75">#588c75</option>
+                <option value="#70a38f" data-class="color-588c75">#588c75</option>
+              </select>
+            </div>
+          </li>-->
+          <li> 
+            <label for="q4" class="">Describe your ideal customer. Who's your target market?</label>
+            <textarea name="q4" id="q4" placeholder="Tell us about your target customer here."></textarea>
+          </li>
+          <li>
+            <label class="" for="q5">What's your monthly budget?</label>
+            <input class="" id="q5" name="q5" type="number" placeholder="0" step="100" min="100">
+          </li>
+        </ol>
+        <!-- /fields -->
+        <button class="hide" type="submit">Submit Your Answers</button>
+      </form>
+      <!-- /form -->
+      <div class="controls">
+        <button class="continue show">Continue</button>
+        <nav class="nav-dots show">
+          <button class="dot-current"></button>
+          <button disabled></button>
+          <button disabled></button>
+          <button disabled></button>
+          <button disabled></button>
+          <button disabled></button>
+          <button disabled></button>
+        </nav>
+        <span class="numbers show">
+          <span class="number-current">1</span>
+          <span class="number-total">6</span>
+        </span>
+        <div class="progress show" style="width: 16.6667%;"></div>
+      </div>
+      <span class="message-error"></span>
+    </div>
+    <!-- /form wrap -->
+   </div>  
+  <!-- /container -->
+  <script type="text/javascript" src="js/fsf.js"></script>
+</body>
+</html>
